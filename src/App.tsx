@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
 
 import './App.css'
 import Demo from "./pages/BasicDemo.tsx";
+import TodoListDemo from "./pages/TodoList";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -12,6 +11,7 @@ function App() {
           Mobx demo
       </h1>
         <Demo/>
+        <TodoListDemo/>
     </>
   )
 }
